@@ -134,6 +134,7 @@
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="Niveles.h" />
     <ClInclude Include="Pieza.h" />
+    <ClInclude Include="PiezaMutante.h" />
     <ClInclude Include="Previluazion.h" />
     <ClInclude Include="Tablero.h" />
   </ItemGroup>
@@ -142,7 +143,9 @@
     <ClCompile Include="Efectos.cpp" />
     <ClCompile Include="Escenario.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Niveles.cpp" />
     <ClCompile Include="Pieza.cpp" />
+    <ClCompile Include="PiezaMutante.cpp" />
     <ClCompile Include="Previzualizador.cpp" />
     <ClCompile Include="principal.cpp" />
     <ClCompile Include="Tablero.cpp" />
