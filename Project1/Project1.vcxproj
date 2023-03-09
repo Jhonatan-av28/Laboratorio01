@@ -128,7 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Bloque.Avanzado.h" />
     <ClInclude Include="Bloque.h" />
+    <ClInclude Include="BloqueConvencional.h" />
+    <ClInclude Include="BloqueTetromino.h" />
     <ClInclude Include="Efectos.h" />
     <ClInclude Include="Escenario.h" />
     <ClInclude Include="GameManager.h" />
@@ -139,7 +142,10 @@
     <ClInclude Include="Tablero.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Avanzado.cpp" />
     <ClCompile Include="Bloque.cpp" />
+    <ClCompile Include="BloqueConvencional.cpp" />
+    <ClCompile Include="BloqueTetromino.cpp" />
     <ClCompile Include="Efectos.cpp" />
     <ClCompile Include="Escenario.cpp" />
     <ClCompile Include="GameManager.cpp" />
