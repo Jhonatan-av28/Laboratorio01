@@ -142,7 +142,7 @@
     <ClInclude Include="Tablero.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Avanzado.cpp" />
+    <ClCompile Include="Bloque.Avanzado.cpp" />
     <ClCompile Include="Bloque.cpp" />
     <ClCompile Include="BloqueConvencional.cpp" />
     <ClCompile Include="BloqueTetromino.cpp" />

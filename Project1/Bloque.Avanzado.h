@@ -1,7 +1,9 @@
 #pragma once
 #include "Bloque.h"
-class Avanzado :
-    public Bloque
+class BloqueAvanzado :public Bloque
+    
 {
+public:
+    void rotar(float _grados);
 };
 
