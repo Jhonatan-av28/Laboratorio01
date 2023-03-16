@@ -48,7 +48,7 @@
     <ClInclude Include="BloqueConvencional.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Bloque.Avanzado.h">
+    <ClInclude Include="BloqueAvanzado.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

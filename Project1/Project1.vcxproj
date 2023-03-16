@@ -128,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Bloque.Avanzado.h" />
+    <ClInclude Include="BloqueAvanzado.h" />
     <ClInclude Include="Bloque.h" />
     <ClInclude Include="BloqueConvencional.h" />
     <ClInclude Include="BloqueTetromino.h" />

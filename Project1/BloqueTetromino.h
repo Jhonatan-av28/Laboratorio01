@@ -15,5 +15,8 @@ public:
     BloqueTetromino();
     BloqueTetromino(int _x, int _ancho, int _alto, int _color);
    //BloqueTetromino()
+
+    void setConRotacion(bool _conRotacion) { conRotacion = _conRotacion; }
+    bool getConRotacion() { return conRotacion; }
 };
 

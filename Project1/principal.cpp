@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Escenario.h"
 #include "Bloque.h"
+#include "BloqueAvanzado.h"
+#include "BloqueConvencional.h"
 
 using namespace std;
 

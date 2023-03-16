@@ -17,11 +17,16 @@ private:
 	int MejorPuntaje;
 	int nivel;
 	int numeroVidas;
+	Tablero* tablero= nullptr;
 public:
+	Escenario() {
+		puntaje = 0;
+		tablero = new Tablero();
+	}
 	void setNombre(string _nombre) { nombre = nombre; }
 	string getNombre() { return nombre; }
 
-	void setTablero(tablero _tablero) { tablero = _tablero;}
-	Tablero getTablero()
+	void setTablero(Tablero _tablero) { tablero = _tablero;}
+	Tablero getTablero() { return tablero; }
 
 };
