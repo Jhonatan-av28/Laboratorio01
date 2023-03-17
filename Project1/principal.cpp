@@ -8,47 +8,56 @@ using namespace std;
 
 
 int main() {
+	//int numeroCuenta = 120493243;
+	// int*pNumeroCuenta = nullptr;
+	
+	//float cotizacionFDolar = 6.96f; 
+	//bool posibleCambio = true;
+	
+
+	//cout<< "valor de la variable numeroCuenta: " << numeroCuenta <<endl;
+	//cout<< direecion de memoria de la variable numeroCuenta: " << &numeroCuenta << endl;
+
+	// pNumeroCuenta = &numeroCuenta;
+
+	//cout << "direccion de memoria de la variable pNumeroCuenta: " << pNumeroCuenta << endl;
+	//cout << "valor almacenado en la direccion que apunta pNumeroCuenta: " << *pNumeroCuenta << endl;
+	//*pNumeroCuenta = 10;
+
+	//cout << "valor almacenado en la direccion que apunta pNumeroCuenta: " << *pNumeroCuenta << endl;
+	//cout << "valor de la variable numeroCuenta: " << numeroCuenta << endl;
+	//cout << "direccion de memoria de la variable numeroCuenta: " << &numeroCuenta << endl;
+
 	//Bloque objetoBloque;
 
 	//objetoBloque.mostrar();
-	BloqueAvanzado objetoBloqueAvanzado;
-	objetoBloqueAvanzado.rotar(10.5f);
+	BloqueAvanzado* objetoBloqueAvanzado01;
+	//objetoBloqueAvanzado.rotar(10.5f);
+	objetoBloqueAvanzado01->rotar(10.5f);
 
-	BloqueConvencional objetoBloqueConvencional;
-	objetoBloqueConvencional.rotar(90.3f);
+	//BloqueConvencional objetoBloqueConvencional;
+	BloqueConvencional* objetoBloqueConvencional = nullptr;
+	objetoBloqueConvencional = new BloqueConvencional();
+	//objetoBloqueConvencional.rotar(90.3f);
+	objetoBloqueConvencional->rotar(90.3f);
+
+	BloqueAvanzado objetoBloqueAvanzado02;
+
+	cout << "Se han creado: " << objetoBloqueAvanzado02.getCantidadBloques() << " objetos Bloque" << endl;
+	
 	cout << "Hola bienvenido al mundo de Tetris." << endl;
 
      Escenario escenarioInicial;
 
-	escenarioInicial.getTablero().getNombre() << endl;
-	cout << "El nombre del tablero que tiene este escenario es: " << "El nombre del escenario es:" << escenarioInicial.getNombre() << endl;
-	escenarioInicial.setNombre("Inicia la historia Tetris");
-	//Implementar la parte de 
-	cout << "El nombre del escenario es:" << escenarioInicial.getNombre() << endl;
+	 escenarioInicial.setNombre("Inicia la historia tetris");
+	 cout << "El nombre del tablero que tiene este escenario es:" << (*escenarioInicial.getTablero()).getNombre() << endl;
+	 //cout << "El nombre del escenario es:" << escenarioInicial.getNombre() << endl;
+	 /*
+	 string temp = "Inicia la historia tetris";
+	 escenarioInicial.setNombre(temp);
 
-	int Tablero;
-	{
-		cout << "Espacio donde se almacenan las figuras" << endl;
-	}
-	
-	
-	int Bloques;
-	{
-		cout << "Son los cuales depende todo el juego y dando asi la vida al mismo " << endl;
-	}
-	
-	int Puntuacion;
-	{
-		cout << "Lugar donde se guardan todos los puntos que gana el usuario" << endl;
-	}
-
-	int Escenario;
-	{
-		cout << "Espacio que contrendra bloques que esten por ingresar,puntuacion,nivel,opciones" << endl;
-	}
-
-
-	 
-	
-
+	 cout << "El nombre del escenario es:" << escenarioInicial.getNombre() << endl;
+	 */
 }
+
+	

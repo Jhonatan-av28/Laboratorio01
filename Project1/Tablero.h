@@ -1,6 +1,4 @@
 #pragma once
-#include<iostream>
-#include<string>
 #include"Bloque.h"
 
 using namespace std;
@@ -13,12 +11,13 @@ private:
 	int filaImiteSuperior;
 	int filaActual;
 	int numeroFilasEliminadas;
-	Bloque bloqueSiguiente;
+	//Bloque bloqueSiguiente;
 
 public:
 	Tablero() {
 		nombre = "Tablero sin nombre";
      }
+	
 	void inicializarTablero();
 
 	bool rotarBloque();

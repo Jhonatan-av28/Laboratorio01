@@ -1,6 +1,6 @@
 #pragma once
-#include<iostream>
 #include<string>
+#include "Tablero.h"
 
 using namespace std;
 
@@ -11,17 +11,20 @@ private:
 	string nombre;
 	int alto;
 	int ancho;
-	string TipoFondo;
-	string ImagenFondo;
+	string TipoBorde;
+	string imagenFondo;
 	int Puntaje;
 	int MejorPuntaje;
 	int nivel;
 	int numeroVidas;
-	Tablero* tablero= nullptr;
-public:
+	///Tablero tablero;
+	Tablero* tablero= new Tablero();
+	//Tablero* tablero = nullptr;
+
+ public:
 	Escenario() {
 		puntaje = 0;
-		tablero = new Tablero();
+		//tablero = new Tablero();
 	}
 	void setNombre(string _nombre) { nombre = nombre; }
 	string getNombre() { return nombre; }

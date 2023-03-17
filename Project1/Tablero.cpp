@@ -1,29 +1,29 @@
 #include <iostream>
-#include "Pieza.h"
-#include "PiezaMutante.h"
+#include"Tablero.h"
 
 using namespace std;
 
-int main() {
-	Pieza pieza_l("eles", "#000000");
+void Tablero::incializarTablero()
+{
+	filaActual = 0;
+	numeroFilasEliminadas = 0;
+	//Debemos cambiar todos los objeto comunes por manejor por punteros
+	//bloqueSiguiente = NULL;
 
-	cout << pieza_l.getNombre() << endl;
-	pieza_l.setNombre("L de cuatro tiles");
-	pieza_l.rotar(90);
-	cout << pieza_l.getNombre() << endl;
-	cout << pieza_l.getColor() << endl;
-	cout << "--------------------------" << endl;
+}
 
-	PiezaMutante pieza_m("Pieza mutante sin nombre, jjejejejej", "#OOOOOO transparente", 2, true);
+bool Tablero::rotarBloque()
+{
+	cout << "funcion que rota un bloque" << endl;
+	return false;
+}
 
-	cout << "numero de copias: " << pieza_m.getNumeroCopias() << endl;
-	cout << "modificar forma?: " << pieza_m.getModificarForma() << endl;
-	cout << "color de la pieza mutante" << pieza_m.getColor() << endl;
-	cout << pieza_m.getNombre() << endl;
-	pieza_m.setNombre("Pieza mutante L de cuatro tiles");
-	pieza_m.rotar(90);
-	cout << pieza_m.getNombre() << endl;
+void Tablero::bajarBloque()
+{
+	cout << "funcion que baja un bloque" << endl;
+}
 
-	pieza_m.cambiarForma(2);
-
+bool Tablero::moverBloque(int direccion) {
+	cout << "funcion que mueve a la derecha o a la izquierda un bloque" << endl;
+	return false;
 }

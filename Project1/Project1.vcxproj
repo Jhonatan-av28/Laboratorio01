@@ -132,27 +132,19 @@
     <ClInclude Include="Bloque.h" />
     <ClInclude Include="BloqueConvencional.h" />
     <ClInclude Include="BloqueTetromino.h" />
-    <ClInclude Include="Efectos.h" />
     <ClInclude Include="Escenario.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="Niveles.h" />
-    <ClInclude Include="Pieza.h" />
-    <ClInclude Include="PiezaMutante.h" />
-    <ClInclude Include="Previluazion.h" />
     <ClInclude Include="Tablero.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bloque.Avanzado.cpp" />
+    <ClCompile Include="BloqueAvanzado.cpp" />
     <ClCompile Include="Bloque.cpp" />
     <ClCompile Include="BloqueConvencional.cpp" />
+    <ClCompile Include="BloqueIlogico.cpp" />
     <ClCompile Include="BloqueTetromino.cpp" />
-    <ClCompile Include="Efectos.cpp" />
     <ClCompile Include="Escenario.cpp" />
     <ClCompile Include="GameManager.cpp" />
-    <ClCompile Include="Niveles.cpp" />
-    <ClCompile Include="Pieza.cpp" />
-    <ClCompile Include="PiezaMutante.cpp" />
-    <ClCompile Include="Previzualizador.cpp" />
     <ClCompile Include="principal.cpp" />
     <ClCompile Include="Tablero.cpp" />
   </ItemGroup>
