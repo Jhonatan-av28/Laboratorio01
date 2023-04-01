@@ -13,7 +13,7 @@ private:
 	int ancho;
 	string TipoBorde;
 	string imagenFondo;
-	int Puntaje;
+	int puntaje;
 	int MejorPuntaje;
 	int nivel;
 	int numeroVidas;

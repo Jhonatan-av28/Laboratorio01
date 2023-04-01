@@ -8,7 +8,7 @@ class Tablero
 {
 private:
 	string nombre;
-	int filaImiteSuperior;
+	int filaLimiteSuperior;
 	int filaActual;
 	int numeroFilasEliminadas;
 	//Bloque bloqueSiguiente;
@@ -18,14 +18,14 @@ public:
 		nombre = "Tablero sin nombre";
      }
 	
-	void inicializarTablero();
+	void incializarTablero();
 
 	bool rotarBloque();
 	bool bajarBloque();
-	bool moverBloque(int dirreccion);
+	bool moverBloque(int direccion);
 
 	//Metodos accesores
-	void getNombre(string _nombre) { nombre; _nombre; }
+	void setNombre(string _nombre) { nombre= _nombre; }
 	string getNombre() { return nombre; }
 
 };

@@ -13,6 +13,7 @@ private:
     bool conRotacion;
 public:
     BloqueTetromino();
+    BloqueTetromino(int _x, int _y, int _ancho, int _alto, int _color);
     BloqueTetromino(int _x, int _ancho, int _alto, int _color);
    //BloqueTetromino()
 
